@@ -8,6 +8,9 @@ export const Container = styled.div`
   margin: 30px 0px 0px 30px;
   position: fixed;
   right: 200px;
+  @media (max-width: 1340px) {
+    display: none;
+  } ;
 `;
 
 export const Status = styled.div`
