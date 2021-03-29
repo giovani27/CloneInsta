@@ -7,6 +7,8 @@ export const Container = styled.div`
   cursor: pointer;
   margin-left: 7px;
   max-width: 74px;
+  width: 100%;
+
   > span {
     display: inline-block;
     white-space: nowrap;

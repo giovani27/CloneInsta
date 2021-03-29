@@ -11,9 +11,10 @@ export default createGlobalStyle`
      outline: 0;
      font-family: 'Roboto', sans-serif;
  }
- html, body, :root {
-     height: 100%;
-     background-color: #fafafa
+ html, body {
+     height: 100vh;
+     width: 100vw;
+     background-color: #fafafa;
 
  }
 

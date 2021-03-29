@@ -8,7 +8,11 @@ export const Container = styled.div`
   margin: 30px 0px 0px 30px;
   position: fixed;
   right: 200px;
-  @media (max-width: 1340px) {
+  @media (max-width: 1024px) {
+    position: fixed;
+    right: 50px;
+  }
+  @media (max-width: 768px) {
     display: none;
   } ;
 `;

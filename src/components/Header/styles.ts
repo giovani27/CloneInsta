@@ -10,21 +10,24 @@ export const Container = styled.div`
 `;
 
 export const Nav = styled.nav`
-  max-height: 204px;
-  width: 100%;
-
   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
 `;
+
 export const HeaderItem = styled.div`
+  width: 100vw;
   display: flex;
   height: 54px;
-  margin-left: 200px;
   justify-content: space-between;
-  max-width: 975px;
+  align-items: center;
+  margin: auto;
+  max-width: 980px;
 `;
+
 export const Logo = styled.div`
-  display: flex;
-  margin-top: 10px;
+  > div img {
+    width: 103px;
+    height: 29px;
+  }
 `;
 
 export const InputHeader = styled.div`
@@ -38,10 +41,14 @@ export const InputHeader = styled.div`
     height: 28px;
     font-size: 14px;
   }
+  @media (max-width: 600px) {
+    > input {
+      display: none;
+    }
+  }
 `;
 export const IconsHeader = styled.div`
   display: flex;
-  justify-content: flex-end;
   align-items: center;
 
   > a {
@@ -51,8 +58,8 @@ export const IconsHeader = styled.div`
 `;
 
 const iconCSS = css`
-  width: 26px;
-  height: 26px;
+  width: 23px;
+  height: 23px;
   margin-right: 20px;
   cursor: pointer;
 `;

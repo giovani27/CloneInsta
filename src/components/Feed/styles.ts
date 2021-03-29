@@ -10,18 +10,21 @@ import { GiSaveArrow } from "react-icons/gi";
 
 export const Container = styled.div`
   display: flex;
+  position: relative;
   flex-direction: column;
   border: 1px solid rgba(0, 0, 0, 0.3);
-
   max-width: 614px;
-  margin-bottom: 30px;
+  margin: auto;
+  width: 100%;
+  @media (max-width: 1024px) {
+    margin: 0;
+    padding: 0;
+  }
 `;
 
 export const HeaderFeed = styled.div`
   display: flex;
   justify-content: space-between;
-  width: 614px;
-  height: 60px;
   padding: 16px;
 `;
 export const Logo = styled.div`
@@ -40,6 +43,8 @@ export const LogoIcon = styled.img`
   border-radius: 50%;
 `;
 export const Button = styled.div`
+  position: absolute;
+  right: 0;
   display: flex;
   align-items: center;
 `;
@@ -54,21 +59,20 @@ export const Video = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 614px;
-  width: 614px;
-  background-color: black;
 `;
 
 export const PlayIcon = styled.img`
+  width: 100%;
   height: 614px;
-  width: 614px;
 `;
 export const Footer = styled.div`
   display: flex;
   flex-direction: column;
-  width: 614px;
   height: auto;
   padding: 5px 14px;
+  max-width: 614px;
+  width: 100%;
+  margin: 0;
 `;
 export const HeaderFooter = styled.div`
   display: flex;
@@ -94,6 +98,8 @@ export const CompartilharIcon = styled(FaShareSquare)`
   ${iconCSS}
 `;
 export const Save = styled.div`
+  position: absolute;
+  right: 0;
   display: flex;
   align-items: center;
 `;
@@ -149,10 +155,12 @@ export const AddComents = styled.div`
   align-items: center;
   justify-content: space-between;
   padding: 0 10px 0 10px;
-  width: 614px;
+  max-width: 614px;
+  width: 100%;
+
+  margin: auto;
   height: 56px;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
-
   margin-top: 35px;
   > input {
     width: 491px;

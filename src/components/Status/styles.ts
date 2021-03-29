@@ -4,13 +4,21 @@ import { GrFormNext } from "react-icons/gr";
 import { IoIosArrowBack } from "react-icons/io";
 
 export const Container = styled.div`
+  position: relative;
   display: flex;
-  width: 614px;
+  width: 100%;
+  max-width: 614px;
   height: 118px;
   border-radius: 3px;
   margin-bottom: 24px;
+  margin: 10px auto;
   border: 1px solid rgba(0, 0, 0, 0.3);
   overflow-y: hidden;
+  @media (max-width: 1024px) {
+    margin: 55px 0 10px 0;
+    padding: 0;
+  }
+
   &::-webkit-scrollbar {
     display: none;
   }
@@ -23,12 +31,10 @@ export const Stats = styled.div`
 
 export const IconNext = styled.div`
   position: absolute;
-  margin-top: 30px;
-  margin-left: 580px;
+  right: 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 25px;
   height: 25px;
   background-color: white;
   z-index: 1;
@@ -37,10 +43,13 @@ export const IconNext = styled.div`
   cursor: pointer;
   opacity: 1;
   transition: all ease 0.5s;
+  width: 100%;
+  margin: 30px auto;
+
+  max-width: 25px;
 `;
 export const IconBack = styled.div`
   position: absolute;
-  margin-top: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -53,6 +62,10 @@ export const IconBack = styled.div`
   cursor: pointer;
   opacity: 1;
   transition: all ease 0.5s;
+  left: 0;
+  width: 100%;
+  margin: 30px auto;
+  max-width: 25px;
 `;
 
 export const BackIcon = styled(IoIosArrowBack)`
