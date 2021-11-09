@@ -33,7 +33,6 @@ export const Card1 = styled.div`
   max-height: 641px;
 `;
 export const Card2 = styled.div`
-  display: flex;
   max-width: 963px;
   max-height: 320px;
 `;

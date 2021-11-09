@@ -15,7 +15,7 @@ const Main: React.FC = () => {
         <Feed
           key={item.name}
           name={item.name}
-          imagem="https://img.kalunga.com.br/fotosdeprodutos/479736z_1.jpg"
+          imagem={"./Main1.jpg"}
           description={item.description}
           avatar={item.avatar}
           like={item.like}

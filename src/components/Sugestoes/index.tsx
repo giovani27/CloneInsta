@@ -21,7 +21,7 @@ const Sugestoes: React.FC = () => {
   return (
     <Container>
       <Status>
-        <AvatarMeu src="https://img.kalunga.com.br/fotosdeprodutos/479736z_1.jpg" />
+        <AvatarMeu src={"./usermasc.png"} />
         <Name>
           <strong>giovaniantunes27</strong>
           <span>Giovani Antunes</span>

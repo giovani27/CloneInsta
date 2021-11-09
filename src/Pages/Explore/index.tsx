@@ -10,30 +10,27 @@ const Explore: React.FC = () => {
       <Main>
         <Cards>
           <Card1>
-            <Card src="https://img.kalunga.com.br/fotosdeprodutos/479736z_1.jpg" />
-            <Card
-              className="big"
-              src="https://img.kalunga.com.br/fotosdeprodutos/479736z_1.jpg"
-            />
-            <Card src="https://img.kalunga.com.br/fotosdeprodutos/479736z_1.jpg" />
+            <Card src={"./Main1.jpg"} />
+            <Card className="big" src={"./Main2.jpg"} />
+            <Card src={"./Main3.jpg"} />
           </Card1>
 
           <Card2>
-            <Card src="https://img.kalunga.com.br/fotosdeprodutos/479736z_1.jpg" />
-            <Card src="https://img.kalunga.com.br/fotosdeprodutos/479736z_1.jpg" />
-            <Card src="https://img.kalunga.com.br/fotosdeprodutos/479736z_1.jpg" />
+            <Card src={"./Main1.jpg"} />
+            <Card src={"./Main2.jpg"} />
+            <Card src={"./Main3.jpg"} />
           </Card2>
 
           <Card2>
-            <Card src="https://img.kalunga.com.br/fotosdeprodutos/479736z_1.jpg" />
-            <Card src="https://img.kalunga.com.br/fotosdeprodutos/479736z_1.jpg" />
-            <Card src="https://img.kalunga.com.br/fotosdeprodutos/479736z_1.jpg" />
+            <Card src={"./Main1.jpg"} />
+            <Card src={"./Main2.jpg"} />
+            <Card src={"./Main3.jpg"} />
           </Card2>
 
           <Card2>
-            <Card src="https://img.kalunga.com.br/fotosdeprodutos/479736z_1.jpg" />
-            <Card src="https://img.kalunga.com.br/fotosdeprodutos/479736z_1.jpg" />
-            <Card src="https://img.kalunga.com.br/fotosdeprodutos/479736z_1.jpg" />
+            <Card src={"./Main1.jpg"} />
+            <Card src={"./Main2.jpg"} />
+            <Card src={"./Main3.jpg"} />
           </Card2>
         </Cards>
       </Main>

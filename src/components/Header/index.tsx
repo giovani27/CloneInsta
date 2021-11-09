@@ -52,22 +52,20 @@ const Header: React.FC = () => {
           </InputHeader>
 
           <IconsHeader>
-
-              <Link to="/">
-                <HomeIcon />
-              </Link>
-              <Link to="/inbox">
-                <InboxIcon />
-              </Link>
-              <Link to="/explore">
-                <ExploreIcon />{" "}
-              </Link>
-              <LikeIcon onClick={() => setActiveFollow(!ActiveFollow)} />
-              <AvatarIcon
-                onClick={() => setActive(!Active)}
-                src="https://img.kalunga.com.br/fotosdeprodutos/479736z_1.jpg"
-              />
-
+            <Link to="/">
+              <HomeIcon />
+            </Link>
+            <Link to="/inbox">
+              <InboxIcon />
+            </Link>
+            <Link to="/explore">
+              <ExploreIcon />{" "}
+            </Link>
+            <LikeIcon onClick={() => setActiveFollow(!ActiveFollow)} />
+            <AvatarIcon
+              onClick={() => setActive(!Active)}
+              src={"./usermasc.png"}
+            />
           </IconsHeader>
         </HeaderItem>
       </Nav>
